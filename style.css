@@ -141,7 +141,13 @@ li{
   top: 2pt;
 }
 
+#main h2 > .fa-id-card{
+  left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
+  top: 2pt;
+}
+
 #main h2 > .fa-suitcase{
+  left: calc(var(--main-blocks-title-icon-offset-left) - 2pt);
   top: 1pt;
 }
 
@@ -167,6 +173,16 @@ li{
   font-size: 7pt;
   text-align: right;
   line-height: 1;
+}
+
+/* Padding for 2 dates */
+.multi {
+  padding-top: 0px !important;
+}
+
+/* Padding for a single month + date */
+.single {
+  padding-top: calc(var(--row-blocks-padding-top)) !important;
 }
 
 .date span{
@@ -321,7 +337,12 @@ li{
 
 #sidebar h1{
   font-weight: 400;
-  font-size: 11pt;
+  font-size: 13pt;
+}
+
+#sidebar h2{
+  font-weight: 400;
+  font-size: 10pt;
 }
 
 .side-block{
