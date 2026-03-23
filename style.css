@@ -70,7 +70,7 @@ li{
 
 /** big title **/
 #title, h1, h2{
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #title{
@@ -286,7 +286,7 @@ li{
 
 #main ul{
   padding-left: 0.07in;
-  margin: 0.08in 0;
+  margin: 0.04in 0; 
 }
 
 #main li{
@@ -367,3 +367,7 @@ li{
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* Custom Iffy classes */
+
